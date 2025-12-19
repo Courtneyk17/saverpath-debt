@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SaverPath</title>
+<style>
+
+   * {
+
+     box-sizing: border-box;
+
+   }
+
+
+
+   body {
+
+     font-family: Arial, sans-serif;
+
+     margin: 0;
+
+     background: #f2f2f2;
+
+     color: #0f2a43;
+
+     display: flex;
+
+     justify-content: center;
+
+     flex-direction: column;
+
+     align-items: center;
+
+     height: 100vh;
+
+     text-align: center;
+
+   }
+
+
+
+   .container {
+
+     width: 100%;
+
+     max-width: 700px;
+
+     padding: 40px 20px;
+
+     position: relative;
+
+     z-index: 10;
+
+   }
+
+
+
+   .logo {
+
+     width: 100%;
+
+     max-width: 600px;
+
+     height: auto;
+
+     margin: 0 auto 30px;
+
+     display: block;
+
+   }
+
+
+
+   h1 {
+
+     margin-bottom: 25px;
+
+   }
+
+
+
+   .button-group {
+
+     display: flex;
+
+     flex-direction: column;
+
+     gap: 20px;
+
+     width: 100%;
+
+     max-width: 450px;
+
+     margin: 0 auto;
+
+   }
+
+
+
+   .btn {
+
+     display: block;
+
+     padding: 18px;
+
+     font-size: 20px;
+
+     border-radius: 12px;
+
+     background-color: #0f4c81;
+
+     color: #ffffff;
+
+     text-decoration: none;
+
+     cursor: pointer;
+
+     transition: background-color 0.2s ease;
+
+   }
+
+
+
+   .btn:hover {
+
+     background-color: #09375c;
+
+   }
+
+
+
+   footer {
+
+     margin-top: 40px;
+
+     font-size: 14px;
+
+     color: #666;
+
+   }
+
+
+
+   footer a {
+
+     color: #0f4c81;
+
+     text-decoration: none;
+
+     margin: 0 8px;
+
+   }
+
+
+
+   footer a:hover {
+
+     text-decoration: underline;
+
+   }
+
+</style>
+  
+ 
+</head>
+  
+<body>
+
+ <div class="container">
+
+   <img src="saverpath-logo.png" class="logo" alt="SaverPath Logo" />
+
+
+
+   <h1>Select Your Age Group</h1>
+
+
+
+   <!-- HARD LINKS ONLY (NO JS) -->
+
+   <div class="button-group">
+
+     <a class="btn" href="https://track.saverpath.org/click/1?sub15=under21" target="_top">
+
+       Under 21 years old
+
+     </a>
+
+
+
+     <a class="btn" href="https://track.saverpath.org/click/2?sub15=22to63" target="_top">
+
+       22–63 years old
+
+     </a>
+
+
+     <a class="btn" href="https://track.saverpath.org/click/3?sub15=64plus" target="_top">
+
+       64+ years old
+
+     </a>
+
+
+
+   </div>
+
+   <!-- RedTrack Universal Script (safe + async) -->
+
+   <script
+
+     src="https://track.saverpath.org/unilpclick.js?attribution=lastpaid&cookiedomain=saverpath.org&cookieduration=90&defaultcampaignid=6939c5f0b0e10db0791cdcf3&regviewonce=false"></script>
+
+ </div>
+
+ <footer>
+
+   ©
+
+   <script>document.write(new Date().getFullYear());</script> SaverPath •
+
+   <a href="contact.html">Contact</a> •
+
+   <a href="terms.html">Terms &amp; Conditions</a>
+
+ </footer>
+
+</body>
+</html>
